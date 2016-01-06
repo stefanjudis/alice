@@ -1,0 +1,32 @@
+{
+  "name": "alice",
+  "version": "1.0.0",
+  "description": "Create electron web views for your favourite web apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/alice.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/alice/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/alice#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.2"
+  },
+  "dependencies": {
+    "electron-packager": "^5.2.0",
+    "electron-patch-fs": "^1.0.3",
+    "lodash.template": "^3.6.2",
+    "tmp": "0.0.28"
+  }
+}
